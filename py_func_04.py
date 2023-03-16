@@ -1,6 +1,5 @@
 import os 
 
-
 def get_full_name(first_name: str, 
                   last_name: str, 
                   nick_name:str) -> str:
@@ -10,7 +9,6 @@ def get_full_name(first_name: str,
     nick_name = nick_name.capitalize()
     
     return f'{first_name} {last_name} {nick_name}'
-
 
 def get_name_parts(full_name: str) -> list:
     name_parts = full_name.split(' ')
